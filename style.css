@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'PT sans',sans -serif;
+}
+
+body{
+    background: #87CEEB;   
+    padding-top: 20;
+    color: #0b0b0b;
+    line-height: 1.6;
+}
+
+#showcase{
+    margin: 0;
+    padding:0;
+    background-repeat: no-repeat;
+    background-position:  center;
+    background-image: url("project.jpg");
+    background-size: cover;
+    width:100%;
+    height:100vh;
+    position:relative;
+    overflow:hidden;
+}
+#showcase.container{
+    margin-top:25vh;
+}
+
+nav{
+    height: 40px;
+    width:100%;
+    background: transparent;   
+    color:rgb(27, 26, 26) ;
+    position: fixed;
+    font-size: 18px;
+    justify-content: space-between;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    display: inline;
+    float: left;
+}
+
+nav li:hover{
+    background-color: #070707;
+}
+
+nav a{
+    display: inline-block;
+    width: 170px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 0;
+    color: #f9f6f6;
+}
+
+.main-container h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+    color: #090909;
+    text-align: center;
+    margin-top: 8rem;
+}
+
+.main-container h2{
+    color: #f6f9f6;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 4ex;
+    margin-right:20ex;
+    margin-left: 20ex;
+    font-size: 2rem;
+}
+
+.main-container h2:hover{
+   color: #fa0505;
+}
+
+
+
+
